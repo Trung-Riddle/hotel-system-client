@@ -48,7 +48,7 @@ function App() {
         <Route path={pathUser.ALL} element={<NotFound />} />
         {/* login/register page */}
         <Route path={pathUser.AUTH} element={<Auth />} />
-        {/* admin route */}
+        {/* admin router */}
         <Route path={pathAdmin.ADMIN} element={<AdminLayout />}>
           <Route path={pathAdmin.DASHBOARD} element={<Dashboard />} />
           <Route path={pathAdmin.CREATE_DESTINATION} element={<CreateDestination />} />
